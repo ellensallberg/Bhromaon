@@ -1,0 +1,21 @@
+.blue_bar {
+    background-color: colorsFonts.$main-blue;
+    height: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.blue_bar_title {
+    font-size: 24px;
+    letter-spacing: 2.4px;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 525px;
+    width: 100%;
+}
