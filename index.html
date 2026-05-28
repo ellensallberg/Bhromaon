@@ -6,6 +6,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="icon" type="image/x-icon" href="/images/icon.png">
+    <script src="https://kit.fontawesome.com/372bf40e06.js" crossorigin="anonymous"></script>
     <title>BHROMAON</title>
 </head>
 <body>
@@ -16,10 +18,10 @@
             <h1 class="header_title">BHROMAON</h1>
             <h2 class="header_undertitle">Safe Travel Anywhere</h2>
         </div>
-        <div class="searchbar_container">
-            <input class="searchbar" type="text" placeholder="Search Your Travel Destination">
-            <button>SEARCH</button>
-        </div>
+        <form class="searchbar_container">
+            <input class="searchbar" type="text" name="destination" placeholder="Search Your Travel Destination">
+            <button type="submit">SEARCH <i class="fa-solid fa-magnifying-glass magnifying-glass_icon"></i></button>
+        </form>
     </section>
 
     <!-- blue bar -->
@@ -97,12 +99,27 @@
             <img src="/images/hiker.jpg" alt="">
             <div class="section4_text_container">
                 <h5 class="section4_container_title">SAM SUMON</h5>
-                <p class="section4_container_text">But I must explain to you how all this mistaken idea of account to denouncinpleasure and praising pain 
+                <p class="section4_container_text"><i class="fa-solid fa-quote-left quote_icon"></i>But I must explain to you how all this mistaken idea of account to denouncinpleasure and praising pain 
                     But I must explain to you how all this mistaken idea of account to nai denouncing pleasure and praising pain was account 
                     born and I account will give you a complete account of the system was account 
                     born and I account will give you a nai the complete account of the system</p>
             </div>
         </div>
     </section>
+
+    <!-- footer -->
+     <section class="footer">
+        <div class="footer_container">
+            <h2 class="footer_container_logo">BHROMAON</h2>
+            <h3 class="footer_container_quote">Safe Travel Anywhere</h3>
+            <ul class="footer_container_list">
+                <li><a href="#"><i class="fa-brands fa-facebook-f social_icon"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter social_icon"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in social_icon social_icon_blue"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube social_icon"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-pinterest social_icon"></i></a></li>
+            </ul>
+        </div>
+     </section>
 </body>
 </html>

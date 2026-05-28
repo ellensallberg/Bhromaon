@@ -7,11 +7,18 @@
 @import "_section3.scss";
 @import "_card.scss";
 @import "_section4.scss";
+@import "_footer.scss";
 
 
-body {
+html, body {
+    overflow-x: hidden;
     color: white;
     font-family: colorsFonts.$main-font;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 button {
@@ -38,4 +45,21 @@ li, a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.quote_icon {
+    font-size: 40px;
+    color: colorsFonts.$main-blue;
+}
+
+.magnifying-glass_icon {
+    font-size: 20px;
+}
+
+.social_icon {
+    font-size: 16px;
+
+    &_blue {
+        color: colorsFonts.$main-blue;
+    }
 }

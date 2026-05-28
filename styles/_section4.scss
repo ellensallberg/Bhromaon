@@ -17,17 +17,14 @@
 
     }
 
-    &_img {
-        max-height: 284px;
-    }
 
     &_container {
         display: flex;
+            flex-wrap: wrap;
         background-color: #333333;
 
         &_title {
             font-size: 20px;
-            margin-bottom: 20px;
         }
 
         &_text {

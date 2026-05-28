@@ -1,0 +1,35 @@
+.footer {
+    height: 270px;
+    background-color: #232323;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    &_container {
+        text-align: center;
+
+        &_logo {
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 3.36px;
+            margin-bottom: 8px;
+        }
+
+        &_quote {
+            font-family: colorsFonts.$secondary-font;
+            font-size: 16px;
+            letter-spacing: 1.6px;
+        }
+
+        &_list {
+            max-width: 166px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            justify-self: center;
+            margin-bottom: 50px;
+            margin-top: 30px;
+        }
+    }
+}
